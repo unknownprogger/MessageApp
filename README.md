@@ -10,10 +10,6 @@ git clone https://github.com/unknownprogger/MessageApp/
 cd MessageApp/Server/
 make run
 ```
-Also you are able to use:
-```
-make build
-```
-if you don't wanna run the programm right now.
+Also you are able to use ```make build``` instead of ```make run``` if you don't wanna run the programm right now.
 
 More make-options in Server/README.md
