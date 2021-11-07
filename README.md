@@ -14,6 +14,6 @@ Also you are able to use:
 ```
 make build
 ```
-If you don't wanna run the programm right now.
+if you don't wanna run the programm right now.
 
-More make-options in Server/READ.md
+More make-options in Server/README.md
