@@ -1,5 +1,5 @@
-# MessageApp
-Simple client-server Linux application for simple communication.
+# SimpleMessageApp
+Simple client-server Linux application for communication.
 
 
 # Server instsallation
