@@ -11,5 +11,6 @@ cd MessageApp/Server/
 make run
 ```
 Also you are able to use ```make build``` instead of ```make run``` if you don't wanna run the programm right now.
+It creates executable called ```main``` which you can run with ```./main```
 
 More make-options in Server/README.md
