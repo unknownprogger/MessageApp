@@ -12,5 +12,7 @@ make run
 ```
 Also you are able to use ```make build``` instead of ```make run``` if you don't wanna run the program right now.
 It creates executable called ```main``` which you can run with ```./main```
+You can specify the port for server.
+e.g. ```./main 8080```
 
 More make-options in Server/README.md
