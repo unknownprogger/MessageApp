@@ -5,6 +5,7 @@
 #include <sys/socket.h>
 #include <netinet/in.h>
 
+#include <iostream>
 #include <cstring>
 #include <unistd.h>
 
@@ -54,6 +55,7 @@ ChatServer* ChatServer::StartServer(EventSelector *sel, const int port)
     if (res == -1)
         return nullptr;
 
+    std::cout << "Server has been started on port " << port << std::endl;
     // Return ChatServer object
     return new ChatServer(sel, ls);
 }
